@@ -203,8 +203,8 @@ GameObject:
   - component: {fileID: 615479758}
   - component: {fileID: 615479761}
   - component: {fileID: 615479760}
-  - component: {fileID: 615479762}
   - component: {fileID: 615479763}
+  - component: {fileID: 615479762}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -290,7 +290,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 1
+  m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.16}
   m_EdgeRadius: 0
