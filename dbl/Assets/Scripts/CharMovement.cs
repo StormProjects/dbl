@@ -4,17 +4,15 @@ public class CharMovement : MonoBehaviour {
  
     private Rigidbody2D playerRigidBody2D; // RigidBody component instance for the player
     
-    //Variable to track how much movement is needed from input
+    // Variable to track how much movement is needed from input
     private float movePlayerHorizontal;
     private float movePlayerVertical;
     private Vector2 movement;
 
-    public float speed = 4.0f; // Speed modifier for player movement
-
     private Animator playerAnim; // Animator component for the player
-    private SpriteRenderer playerSpriteImage; //Sprite renderer for the player
+    private SpriteRenderer playerSpriteImage; // Sprite renderer for the player
 
-    //Initialize any component references
+    // Initialize any component references
     void Awake() {
         playerRigidBody2D = (Rigidbody2D)GetComponent(typeof(Rigidbody2D));
 
@@ -30,7 +28,7 @@ public class CharMovement : MonoBehaviour {
         
         movement = new Vector2(movePlayerHorizontal,movePlayerVertical);
         
-        playerRigidBody2D.velocity=movement*speed;
+        playerRigidBody2D.velocity=movement;
 
         if(movePlayerVertical==0 && movePlayerHorizontal==0){
             playerAnim.SetBool("moving",false);
