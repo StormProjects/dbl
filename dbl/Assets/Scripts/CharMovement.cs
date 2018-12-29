@@ -12,6 +12,7 @@ public class CharMovement : MonoBehaviour {
     private Animator playerAnim; // Animator component for the player
     private SpriteRenderer playerSpriteImage; // Sprite renderer for the player
 
+
     // Initialize any component references
     void Awake() {
         playerRigidBody2D = (Rigidbody2D)GetComponent(typeof(Rigidbody2D));
@@ -20,6 +21,7 @@ public class CharMovement : MonoBehaviour {
         playerSpriteImage =(SpriteRenderer)GetComponent(typeof(SpriteRenderer));
 
     }
+
 
     // Update is called once per frame
     void Update () {
