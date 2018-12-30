@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9375056}
   - component: {fileID: 9375057}
+  - component: {fileID: 9375058}
   m_Layer: 0
   m_Name: mountain_tall (2)
   m_TagString: Untagged
@@ -185,6 +186,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &9375058
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9375055}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &24607980
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 24607981}
   - component: {fileID: 24607982}
+  - component: {fileID: 24607983}
   m_Layer: 0
   m_Name: mountain_short (5)
   m_TagString: Untagged
@@ -258,6 +285,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &24607983
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 24607980}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.17, y: 0.13}
+    newSize: {x: 0.17, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.17, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!1 &70756373
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 70756374}
   - component: {fileID: 70756375}
+  - component: {fileID: 70756376}
   m_Layer: 0
   m_Name: mountain_tall (12)
   m_TagString: Untagged
@@ -331,6 +384,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &70756376
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 70756373}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &90674638
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 90674639}
   - component: {fileID: 90674640}
+  - component: {fileID: 90674641}
   m_Layer: 0
   m_Name: mountain_tall (3)
   m_TagString: Untagged
@@ -404,6 +483,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &90674641
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 90674638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &93960990
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93960991}
   - component: {fileID: 93960992}
+  - component: {fileID: 93960993}
   m_Layer: 0
   m_Name: mountain_tall (27)
   m_TagString: Untagged
@@ -477,6 +582,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &93960993
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 93960990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &104741982
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,6 +616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 104741983}
   - component: {fileID: 104741984}
+  - component: {fileID: 104741985}
   m_Layer: 0
   m_Name: mountain_tall (7)
   m_TagString: Untagged
@@ -550,6 +681,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &104741985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 104741982}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &126769726
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 179105936}
   - component: {fileID: 179105937}
+  - component: {fileID: 179105938}
   m_Layer: 0
   m_Name: mountain_short (11)
   m_TagString: Untagged
@@ -869,6 +1026,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &179105938
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 179105935}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.17, y: 0.13}
+    newSize: {x: 0.17, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.17, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!1 &186661052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,6 +1524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240571399}
   - component: {fileID: 240571400}
+  - component: {fileID: 240571401}
   m_Layer: 0
   m_Name: mountain_tall (33)
   m_TagString: Untagged
@@ -1406,6 +1589,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &240571401
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240571398}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &242665030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,6 +1696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271773691}
   - component: {fileID: 271773692}
+  - component: {fileID: 271773693}
   m_Layer: 0
   m_Name: mountain_short (3)
   m_TagString: Untagged
@@ -1552,6 +1761,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &271773693
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 271773690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.17, y: 0.13}
+    newSize: {x: 0.17, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.17, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!1 &274808893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,6 +2165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354466032}
   - component: {fileID: 354466033}
+  - component: {fileID: 354466034}
   m_Layer: 0
   m_Name: mountain_short (2)
   m_TagString: Untagged
@@ -1995,6 +2230,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &354466034
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354466031}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.17, y: 0.13}
+    newSize: {x: 0.17, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.17, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!1 &388362503
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,7 +3725,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615479757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.063, y: -0.047, z: 0}
+  m_LocalPosition: {x: 0.081, y: 0.137, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4610,6 +4870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906821184}
   - component: {fileID: 906821185}
+  - component: {fileID: 906821186}
   m_Layer: 0
   m_Name: mountain_tall (14)
   m_TagString: Untagged
@@ -4674,6 +4935,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &906821186
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 906821183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &926463924
 GameObject:
   m_ObjectHideFlags: 0
@@ -4683,6 +4969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926463925}
   - component: {fileID: 926463926}
+  - component: {fileID: 926463927}
   m_Layer: 0
   m_Name: mountain_tall (9)
   m_TagString: Untagged
@@ -4747,6 +5034,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &926463927
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926463924}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &944223576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4756,6 +5068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 944223577}
   - component: {fileID: 944223578}
+  - component: {fileID: 944223579}
   m_Layer: 0
   m_Name: mountain_tall (6)
   m_TagString: Untagged
@@ -4820,6 +5133,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &944223579
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 944223576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &958326901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,6 +5167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958326902}
   - component: {fileID: 958326903}
+  - component: {fileID: 958326904}
   m_Layer: 0
   m_Name: mountain_tall (34)
   m_TagString: Untagged
@@ -4893,6 +5232,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &958326904
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958326901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &961040023
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,6 +5339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964986464}
   - component: {fileID: 964986465}
+  - component: {fileID: 964986466}
   m_Layer: 0
   m_Name: mountain_tall (26)
   m_TagString: Untagged
@@ -5039,6 +5404,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &964986466
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964986463}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &969710362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6098,6 +6488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1207315724}
   - component: {fileID: 1207315725}
+  - component: {fileID: 1207315726}
   m_Layer: 0
   m_Name: mountain_tall (15)
   m_TagString: Untagged
@@ -6162,6 +6553,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1207315726
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207315723}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &1214084087
 GameObject:
   m_ObjectHideFlags: 0
@@ -6369,6 +6785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244668148}
   - component: {fileID: 1244668149}
+  - component: {fileID: 1244668150}
   m_Layer: 0
   m_Name: mountain_tall (5)
   m_TagString: Untagged
@@ -6433,6 +6850,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1244668150
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1244668147}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &1274249749
 GameObject:
   m_ObjectHideFlags: 0
@@ -6442,6 +6884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1274249750}
   - component: {fileID: 1274249751}
+  - component: {fileID: 1274249752}
   m_Layer: 0
   m_Name: mountain_tall (1)
   m_TagString: Untagged
@@ -6506,6 +6949,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1274249752
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1274249749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &1277931503
 GameObject:
   m_ObjectHideFlags: 0
@@ -8600,6 +9068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640304134}
   - component: {fileID: 1640304135}
+  - component: {fileID: 1640304136}
   m_Layer: 0
   m_Name: mountain_tall (16)
   m_TagString: Untagged
@@ -8664,6 +9133,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1640304136
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1640304133}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &1641114993
 GameObject:
   m_ObjectHideFlags: 0
@@ -8746,6 +9240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670604236}
   - component: {fileID: 1670604237}
+  - component: {fileID: 1670604238}
   m_Layer: 0
   m_Name: mountain_tall (32)
   m_TagString: Untagged
@@ -8810,6 +9305,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1670604238
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1670604235}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &1690164388
 GameObject:
   m_ObjectHideFlags: 0
@@ -9288,6 +9808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1826317461}
   - component: {fileID: 1826317462}
+  - component: {fileID: 1826317463}
   m_Layer: 0
   m_Name: mountain_short (12)
   m_TagString: Untagged
@@ -9352,6 +9873,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1826317463
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826317460}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.17, y: 0.13}
+    newSize: {x: 0.17, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.17, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!1 &1875503475
 GameObject:
   m_ObjectHideFlags: 0
@@ -9606,6 +10152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1926007558}
   - component: {fileID: 1926007559}
+  - component: {fileID: 1926007560}
   m_Layer: 0
   m_Name: mountain_tall (4)
   m_TagString: Untagged
@@ -9670,6 +10217,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1926007560
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1926007557}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &1936890700
 GameObject:
   m_ObjectHideFlags: 0
@@ -9924,6 +10496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1971264566}
   - component: {fileID: 1971264565}
+  - component: {fileID: 1971264567}
   m_Layer: 0
   m_Name: mountain_tall
   m_TagString: Untagged
@@ -9988,6 +10561,31 @@ Transform:
   m_Father: {fileID: 1567734990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1971264567
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971264564}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &2111119954
 GameObject:
   m_ObjectHideFlags: 0
