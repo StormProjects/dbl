@@ -1,2 +1,2 @@
-# dbl
-Example game for learning purposes only. Just for fun.
+# dbl audio resources
+Directory containing all audio source files.
