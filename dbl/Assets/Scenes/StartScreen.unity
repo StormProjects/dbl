@@ -1865,6 +1865,10 @@ GameObject:
   - component: {fileID: 244968811}
   - component: {fileID: 244968813}
   - component: {fileID: 244968812}
+  - component: {fileID: 244968817}
+  - component: {fileID: 244968816}
+  - component: {fileID: 244968815}
+  - component: {fileID: 244968814}
   m_Layer: 0
   m_Name: Vegeta
   m_TagString: Untagged
@@ -2016,6 +2020,57 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.01}
   m_EdgeRadius: 0
+--- !u!114 &244968814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244968807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d7c7836c31a33488cda9d9e35445ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &244968815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244968807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0616a2b26b1138e4886d5a790b6b8105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &244968816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244968807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fa7c21a1f536a44b07321415202c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conversations:
+  - {fileID: 11400000, guid: 9e1e733d3926e304f97901fb8ac1f0ec, type: 2}
+--- !u!114 &244968817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244968807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47de13f95d7eb724a8c0b843c7b0e142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Vegeta
+  age: 0
+  faction: 
+  occupation: 
+  level: 0
 --- !u!1 &271773690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,7 +3892,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443789334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 450.5, y: 338, z: 0}
+  m_LocalPosition: {x: 406, y: 304.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1254760902}

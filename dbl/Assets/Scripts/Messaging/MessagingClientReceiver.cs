@@ -6,6 +6,16 @@ public class MessagingClientReceiver : MonoBehaviour {
 	}
 	
 	void ThePlayerIsTryingToLeave() {
-		Debug.Log("Don't Leave! - " + tag.ToString());
+		var dialog = GetComponent<ConversationComponent>();
+		if (dialog != null) {
+			if (dialog.Conversations != null && dialog.Conversations.Length > 0) {
+				var conversation = dialog.Conversations[0];
+				if (conversation != null) {
+					Debug.Log("about to start convo");
+					ConversationManager.Instance.StartConversation(conversation);
+				}
+			}
+		}
 	}
+
 }
