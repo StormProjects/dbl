@@ -9,6 +9,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23464245ef2d2ae4a86b538c479e7999, type: 3}
-  m_Name: New Conversation
+  m_Name: VegetaWarning
   m_EditorClassIdentifier: 
-  ConversationLines: []
+  ConversationLines:
+  - SpeakingCharacterName: Vegeta
+    ConversationText: Where do you think you're going?
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Goku
+    ConversationText: I was wondering what was over here.
+    DisplayPortrait: {fileID: 21300000, guid: 1ef889f46c4211240bbad30f9ae4bf3c, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: Well, you can't go this way!
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: There is a lot of construction going on that side of the river.
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: And there are a lot of monsters.
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: But we don't talk about that...
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: Forget I said anything.
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
