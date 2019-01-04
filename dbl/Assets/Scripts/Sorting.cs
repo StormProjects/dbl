@@ -7,20 +7,30 @@
  public Transform player;
  
 	void Update () {
-		
-		if (transform.position.y>=player.transform.position.y) {
+		if (transform.position.y >= player.transform.position.y) {
 			Debug.Log(this.name + " behind player");
 			GetComponent<SpriteRenderer>().sortingOrder = (player.GetComponent<SpriteRenderer>().sortingOrder) - 1;
 			
-			GetComponents<BoxCollider2D>()[1].enabled=false;
- 			GetComponents<BoxCollider2D>()[2].enabled=true;
+			setBoxColliders(false, true);
 		}
-		if (transform.position.y<player.transform.position.y) {
+		if (transform.position.y < player.transform.position.y) {
 			Debug.Log( this.name + " in front of player");
 			GetComponent<SpriteRenderer>().sortingOrder = (player.GetComponent<SpriteRenderer>().sortingOrder) + 1;
 
-			GetComponents<BoxCollider2D>()[1].enabled=true;
- 			GetComponents<BoxCollider2D>()[2].enabled=false;
+			setBoxColliders(true, false);
 		}
 	}
+
+	void setBoxColliders(bool bottom, bool top) {
+		if (gameObject.tag.Equals("terrain")) {
+			Debug.Log("this is a terrain tagged object!");
+			GetComponents<BoxCollider2D>()[0].enabled = bottom;
+ 			GetComponents<BoxCollider2D>()[1].enabled = top;
+		}
+		else {
+			GetComponents<BoxCollider2D>()[1].enabled = bottom;
+ 			GetComponents<BoxCollider2D>()[2].enabled = top;
+		}
+	}
+
  }
