@@ -4,7 +4,9 @@
  
  public class Sorting : MonoBehaviour {
  
- public Transform player;
+ 	public Transform player;
+
+	float offset = 0.025f;
  
 	void Update () {
 		if (transform.position.y >= player.transform.position.y) {
@@ -13,7 +15,7 @@
 			
 			setBoxColliders(false, true);
 		}
-		if (transform.position.y < player.transform.position.y) {
+		if (transform.position.y < player.transform.position.y + offset) {
 			Debug.Log( this.name + " in front of player");
 			GetComponent<SpriteRenderer>().sortingOrder = (player.GetComponent<SpriteRenderer>().sortingOrder) + 1;
 
@@ -23,7 +25,6 @@
 
 	void setBoxColliders(bool bottom, bool top) {
 		if (gameObject.tag.Equals("terrain")) {
-			Debug.Log("this is a terrain tagged object!");
 			GetComponents<BoxCollider2D>()[0].enabled = bottom;
  			GetComponents<BoxCollider2D>()[1].enabled = top;
 		}
