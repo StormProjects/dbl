@@ -14,21 +14,21 @@ MonoBehaviour:
   ConversationLines:
   - SpeakingCharacterName: Vegeta
     ConversationText: You should be honored.
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
   - SpeakingCharacterName: Vegeta
     ConversationText: Low class filth like you rarely gets the chance to experience
       combat with an elite like me...
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
   - SpeakingCharacterName: Vegeta
     ConversationText: We saiyans have our power levels evaluated soon after birth...
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
   - SpeakingCharacterName: Vegeta
     ConversationText: Weaklings are shipped off to worthless planets with no real
       oppponents...
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
   - SpeakingCharacterName: Vegeta
     ConversationText: Just like you were.
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
   - SpeakingCharacterName: Goku
     ConversationText: If that's how I got to Earth... I'm grateful.
     DisplayPortrait: {fileID: 21300000, guid: 1ef889f46c4211240bbad30f9ae4bf3c, type: 3}
@@ -38,8 +38,8 @@ MonoBehaviour:
     DisplayPortrait: {fileID: 21300000, guid: 1ef889f46c4211240bbad30f9ae4bf3c, type: 3}
   - SpeakingCharacterName: Vegeta
     ConversationText: Heh. How nice...
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
   - SpeakingCharacterName: Vegeta
     ConversationText: Now I'll show you the wall you can never scale with "hard work"
       alone!
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+    DisplayPortrait: {fileID: 21300000, guid: 7b5ad823ee5a5f842a41e17adb7c3a01, type: 3}
