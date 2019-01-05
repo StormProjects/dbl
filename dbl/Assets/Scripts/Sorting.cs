@@ -10,13 +10,11 @@
  
 	void Update () {
 		if (transform.position.y >= player.transform.position.y) {
-			Debug.Log(this.name + " behind player");
 			GetComponent<SpriteRenderer>().sortingOrder = (player.GetComponent<SpriteRenderer>().sortingOrder) - 1;
 			
 			setBoxColliders(false, true);
 		}
 		if (transform.position.y < player.transform.position.y + offset) {
-			Debug.Log( this.name + " in front of player");
 			GetComponent<SpriteRenderer>().sortingOrder = (player.GetComponent<SpriteRenderer>().sortingOrder) + 1;
 
 			setBoxColliders(true, false);
@@ -28,7 +26,7 @@
 			GetComponents<BoxCollider2D>()[0].enabled = bottom;
  			GetComponents<BoxCollider2D>()[1].enabled = top;
 		}
-		else {
+		else if (gameObject.tag.Equals("npc")) {
 			GetComponents<BoxCollider2D>()[1].enabled = bottom;
  			GetComponents<BoxCollider2D>()[2].enabled = top;
 		}
