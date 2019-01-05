@@ -34,21 +34,34 @@ public class ConversationManager : Singleton<ConversationManager> {
 		
 		foreach (var conversationLine in conversation.ConversationLines) {
 			currentConversationLine = conversationLine;
-			textHolder.text = currentConversationLine.ConversationText;
 			imageHolder.sprite = currentConversationLine.DisplayPortrait;
 			
-			yield return new WaitForSeconds(3);
+			StartCoroutine(StepThroughConversationText(currentConversationLine.ConversationText));
+			
+			// TODO: add property to conversation lines to indicate wait time for each conversation line
+			yield return new WaitForSeconds(4);
 		}
 
 		talking = false;
+	}
+
+	// Coroutine to step through conversation text, letter by letter
+	IEnumerator StepThroughConversationText(string conversationText) {
+
+		for (int i = 1; i <= conversationText.Length; i++) {
+			textHolder.text = conversationText.Substring(0, i);
+
+			// yield return null;
+		yield return new WaitForSeconds(0.025f);
+		}
+
 	}
 
 	void OnGUI() {
 		if (talking) {
 			dialogBoxCanvasGroup.alpha = 1;
 			dialogBoxCanvasGroup.blocksRaycasts = true;
-		} 
-		else {
+		} else {
 			dialogBoxCanvasGroup.alpha = 0;
 			dialogBoxCanvasGroup.blocksRaycasts = false;
 		}

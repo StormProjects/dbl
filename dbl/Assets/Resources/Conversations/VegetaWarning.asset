@@ -13,23 +13,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ConversationLines:
   - SpeakingCharacterName: Vegeta
-    ConversationText: Where do you think you're going?
+    ConversationText: You should be honored.
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: Low class filth like you rarely gets the chance to experience
+      combat with an elite like me...
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: We saiyans have our power levels evaluated soon after birth...
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: Weaklings are shipped off to worthless planets with no real
+      oppponents...
+    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
+  - SpeakingCharacterName: Vegeta
+    ConversationText: Just like you were.
     DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
   - SpeakingCharacterName: Goku
-    ConversationText: I was wondering what was over here.
+    ConversationText: If that's how I got to Earth... I'm grateful.
+    DisplayPortrait: {fileID: 21300000, guid: 1ef889f46c4211240bbad30f9ae4bf3c, type: 3}
+  - SpeakingCharacterName: Goku
+    ConversationText: On this planet, we know that even the lowest born can outdo
+      the elite if they work hard enough.
     DisplayPortrait: {fileID: 21300000, guid: 1ef889f46c4211240bbad30f9ae4bf3c, type: 3}
   - SpeakingCharacterName: Vegeta
-    ConversationText: Well, you can't go this way!
+    ConversationText: Heh. How nice...
     DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
   - SpeakingCharacterName: Vegeta
-    ConversationText: There is a lot of construction going on that side of the river.
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
-  - SpeakingCharacterName: Vegeta
-    ConversationText: And there are a lot of monsters.
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
-  - SpeakingCharacterName: Vegeta
-    ConversationText: But we don't talk about that...
-    DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
-  - SpeakingCharacterName: Vegeta
-    ConversationText: Forget I said anything.
+    ConversationText: Now I'll show you the wall you can never scale with "hard work"
+      alone!
     DisplayPortrait: {fileID: 21300000, guid: 8c522405037ff21449568f940b2f7d67, type: 3}
