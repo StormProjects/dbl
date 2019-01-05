@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61324188835361890}
   - component: {fileID: 114815233243313748}
   m_Layer: 0
-  m_Name: mountain_short_bottom
+  m_Name: mountain_short (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

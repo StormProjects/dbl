@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61596414840023326}
   - component: {fileID: 114016272008057962}
   m_Layer: 0
-  m_Name: hill_short_top
+  m_Name: hill_short (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
