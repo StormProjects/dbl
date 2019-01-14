@@ -34,12 +34,12 @@ public class ConversationManager : Singleton<ConversationManager> {
 		
 		foreach (var conversationLine in conversation.ConversationLines) {
 			currentConversationLine = conversationLine;
-			imageHolder.sprite = currentConversationLine.DisplayPortrait;
+			imageHolder.sprite = currentConversationLine.displayPortrait;
 			
-			StartCoroutine(StepThroughConversationText(currentConversationLine.ConversationText));
+			StartCoroutine(StepThroughConversationText(currentConversationLine.conversationText));
 			
 			// TODO: add property to conversation lines to indicate wait time for each conversation line
-			yield return new WaitForSeconds(4);
+			yield return new WaitForSeconds(conversationLine.displayTime);
 		}
 
 		talking = false;

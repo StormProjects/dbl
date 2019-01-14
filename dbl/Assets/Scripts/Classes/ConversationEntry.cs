@@ -4,8 +4,12 @@
 
 public class ConversationEntry {
 
-	public string SpeakingCharacterName;
-	public string ConversationText;
-	public Sprite DisplayPortrait;
+	public string speakingCharacterName;
+
+	public string conversationText;
+
+	public Sprite displayPortrait;
+
+	public int displayTime;
 	
 }
