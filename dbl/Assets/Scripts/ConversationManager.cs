@@ -38,7 +38,6 @@ public class ConversationManager : Singleton<ConversationManager> {
 			
 			StartCoroutine(StepThroughConversationText(currentConversationLine.conversationText));
 			
-			// TODO: add property to conversation lines to indicate wait time for each conversation line
 			yield return new WaitForSeconds(conversationLine.displayTime);
 		}
 

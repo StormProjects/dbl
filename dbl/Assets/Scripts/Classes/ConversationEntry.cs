@@ -10,6 +10,6 @@ public class ConversationEntry {
 
 	public Sprite displayPortrait;
 
-	public int displayTime;
+	public int displayTime;  // time (seconds) for text to be displayed on screen
 	
 }
