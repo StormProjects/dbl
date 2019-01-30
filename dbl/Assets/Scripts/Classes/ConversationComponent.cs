@@ -3,6 +3,7 @@
 
 public class ConversationComponent : MonoBehaviour {
  
- 	public Conversation[] Conversations;
+ 	public Conversation[] conversations;
+	public int conversationIndex = 0;
 	 
 }

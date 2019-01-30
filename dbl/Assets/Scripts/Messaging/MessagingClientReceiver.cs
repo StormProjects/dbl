@@ -8,13 +8,21 @@ public class MessagingClientReceiver : MonoBehaviour {
 	void ThePlayerIsTryingToLeave() {
 		var dialog = GetComponent<ConversationComponent>();
 		if (dialog != null) {
-			if (dialog.Conversations != null && dialog.Conversations.Length > 0) {
-				var conversation = dialog.Conversations[0];
+			if (dialog.conversations != null && dialog.conversations.Length > 0) {
+				var conversation = getCurrentConversation(dialog);
 				if (conversation != null) {
-					Debug.Log("about to start convo");
+					Debug.Log("about to start conversation");
 					ConversationManager.Instance.StartConversation(conversation);
 				}
 			}
+		}
+	}
+
+	private Conversation getCurrentConversation(ConversationComponent dialog) {
+		if (dialog.conversationIndex < dialog.conversations.Length - 1) {
+			return dialog.conversations[dialog.conversationIndex++];
+		} else {
+			return dialog.conversations[dialog.conversationIndex];
 		}
 	}
 
