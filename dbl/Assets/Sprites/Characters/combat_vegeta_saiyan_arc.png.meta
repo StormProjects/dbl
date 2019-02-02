@@ -1,9 +1,40 @@
 fileFormatVersion: 2
 guid: 2ef2824d2e6f47e47837033e35562ff8
-timeCreated: 1548806800
+timeCreated: 1548993580
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: combat_vegeta_saiyan_arc_0
+    21300002: combat_vegeta_saiyan_arc_1
+    21300004: combat_vegeta_saiyan_arc_2
+    21300006: combat_vegeta_saiyan_arc_3
+    21300008: combat_vegeta_saiyan_arc_4
+    21300010: combat_vegeta_saiyan_arc_5
+    21300012: combat_vegeta_saiyan_arc_6
+    21300014: combat_vegeta_saiyan_arc_7
+    21300016: combat_vegeta_saiyan_arc_8
+    21300018: combat_vegeta_saiyan_arc_9
+    21300020: combat_vegeta_saiyan_arc_10
+    21300022: combat_vegeta_saiyan_arc_11
+    21300024: combat_vegeta_saiyan_arc_12
+    21300026: combat_vegeta_saiyan_arc_13
+    21300028: combat_vegeta_saiyan_arc_14
+    21300030: combat_vegeta_saiyan_arc_15
+    21300032: combat_vegeta_saiyan_arc_16
+    21300034: combat_vegeta_saiyan_arc_17
+    21300036: combat_vegeta_saiyan_arc_18
+    21300038: combat_vegeta_saiyan_arc_19
+    21300040: combat_vegeta_saiyan_arc_22
+    21300042: combat_vegeta_saiyan_arc_23
+    21300044: combat_vegeta_saiyan_arc_24
+    21300046: combat_vegeta_saiyan_arc_25
+    21300048: combat_vegeta_saiyan_arc_26
+    21300050: combat_vegeta_saiyan_arc_27
+    21300052: combat_vegeta_saiyan_arc_28
+    21300054: combat_vegeta_saiyan_arc_29
+    21300056: combat_vegeta_saiyan_arc_30
+    21300058: combat_vegeta_saiyan_arc_20
+    21300060: combat_vegeta_saiyan_arc_21
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,9 +96,470 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 255
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 203
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 203
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 155
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 205
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 204
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 203
+        width: 24
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 155
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 155
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 153
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 155
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 153
+        width: 23
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 156
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 105
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 104
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 103
+        width: 23
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 109
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 54
+        width: 28
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 57
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 52
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 52
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_24
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 61
+        width: 47
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_28
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 5
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 208
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combat_vegeta_saiyan_arc_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 203
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

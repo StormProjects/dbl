@@ -2,11 +2,11 @@
 public class MessagingClientReceiver : MonoBehaviour {
  
 	void Start() {
-		MessagingManager.Instance.Subscribe(ThePlayerIsTryingToLeave);
+		MessagingManager.Instance.Subscribe(PlayerIsTalkingToCharacter);
 	}
 	
-	void ThePlayerIsTryingToLeave() {
-		var dialog = GetComponent<ConversationComponent>();
+	void PlayerIsTalkingToCharacter() {
+		var dialog = GetComponent<ConversationComponent>(); // get conversationcomponent attached to current character
 		if (dialog != null) {
 			if (dialog.conversations != null && dialog.conversations.Length > 0) {
 				var conversation = getCurrentConversation(dialog);

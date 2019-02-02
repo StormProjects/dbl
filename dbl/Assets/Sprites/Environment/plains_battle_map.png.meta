@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 0d843bb2aefca72468cc809aee98253f
-timeCreated: 1548993715
+guid: 0389456e7e248f842b37d3f7f75c7591
+timeCreated: 1548990056
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: combat_overworld_vegeta_saiyan_arc_0
-    21300002: combat_overworld_vegeta_saiyan_arc_1
-    21300004: combat_overworld_vegeta_saiyan_arc_2
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -43,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,49 +94,7 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: combat_overworld_vegeta_saiyan_arc_0
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 2
-        width: 13
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: combat_overworld_vegeta_saiyan_arc_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 2
-        width: 13
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: combat_overworld_vegeta_saiyan_arc_2
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 2
-        width: 24
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
     physicsShape: []
   spritePackingTag: 
