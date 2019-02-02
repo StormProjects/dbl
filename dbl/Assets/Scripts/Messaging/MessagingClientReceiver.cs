@@ -13,6 +13,7 @@ public class MessagingClientReceiver : MonoBehaviour {
 				if (conversation != null) {
 					Debug.Log("about to start conversation");
 					ConversationManager.Instance.StartConversation(conversation);
+
 				}
 			}
 		}
@@ -24,6 +25,13 @@ public class MessagingClientReceiver : MonoBehaviour {
 		} else {
 			return dialog.conversations[dialog.conversationIndex];
 		}
+	}
+
+	private void ChangeScene() {
+		if (NavigationManager.CanNavigate("BattleScene")) {
+			Debug.Log("attempting to enter BattleScene");
+			NavigationManager.NavigateTo("BattleScene");
+ 		}
 	}
 
 }

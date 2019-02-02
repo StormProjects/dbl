@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour {
 
 	public GameObject[] EnemySpawnPoints;
 	public GameObject[] EnemyPrefabs;
 	public AnimationCurve SpawnAnimationCurve;
+	public CanvasGroup theButtons;
 
 	private int enemyCount;
 	
@@ -30,7 +32,19 @@ public class BattleManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (phase == BattlePhase.PlayerAttack) {
+			theButtons.alpha = 1;
+			theButtons.interactable = true;
+			theButtons.blocksRaycasts = true;
+		}else {
+			theButtons.alpha = 0;
+			theButtons.interactable = false;
+			theButtons.blocksRaycasts = false;
+		}
+ 	}
+
+ 	public void GiveUp() {
+ 		NavigationManager.NavigateTo("Plains");
 	}
 
 	IEnumerator SpawnEnemies() {
