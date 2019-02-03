@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
+using System.Collections;
 public class MessagingClientReceiver : MonoBehaviour {
  
+	public string changeSceneName;
+
 	void Start() {
 		MessagingManager.Instance.Subscribe(PlayerIsTalkingToCharacter);
 	}
@@ -13,7 +16,8 @@ public class MessagingClientReceiver : MonoBehaviour {
 				if (conversation != null) {
 					Debug.Log("about to start conversation");
 					ConversationManager.Instance.StartConversation(conversation);
-
+					
+					StartCoroutine(WaitToChangeScene());
 				}
 			}
 		}
@@ -27,10 +31,18 @@ public class MessagingClientReceiver : MonoBehaviour {
 		}
 	}
 
-	private void ChangeScene() {
-		if (NavigationManager.CanNavigate("BattleScene")) {
-			Debug.Log("attempting to enter BattleScene");
-			NavigationManager.NavigateTo("BattleScene");
+	IEnumerator WaitToChangeScene()
+    {
+        Debug.Log("Waiting for conversation to complete");
+        yield return new WaitUntil(() => ConversationManager.Instance.getConvoComplete());
+        Debug.Log("conversation complete");
+		ChangeScene(changeSceneName);
+    }
+
+	private void ChangeScene(string sceneName) {
+		if (NavigationManager.CanNavigate(sceneName)) {
+			Debug.Log("attempting to enter " + sceneName);
+			NavigationManager.NavigateTo(sceneName);
  		}
 	}
 

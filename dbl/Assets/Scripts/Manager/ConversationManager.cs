@@ -16,6 +16,8 @@ public class ConversationManager : Singleton<ConversationManager> {
 	public Image imageHolder;
 	public Text textHolder;
 
+	private bool convoComplete = false;
+
 
 	public void StartConversation(Conversation conversation) {
 		
@@ -30,6 +32,7 @@ public class ConversationManager : Singleton<ConversationManager> {
 
 	// Coroutine to loop through conversation data
 	IEnumerator DisplayConversation(Conversation conversation) {
+		convoComplete = false;
 		talking = true;
 		
 		foreach (var conversationLine in conversation.ConversationLines) {
@@ -42,6 +45,7 @@ public class ConversationManager : Singleton<ConversationManager> {
 		}
 
 		talking = false;
+		convoComplete = true;
 	}
 
 	// Coroutine to step through conversation text, letter by letter
@@ -50,8 +54,8 @@ public class ConversationManager : Singleton<ConversationManager> {
 		for (int i = 1; i <= conversationText.Length; i++) {
 			textHolder.text = conversationText.Substring(0, i);
 
-			// yield return null;
-		yield return new WaitForSeconds(0.025f);
+			
+			yield return new WaitForSeconds(0.025f);
 		}
 
 	}
@@ -64,6 +68,10 @@ public class ConversationManager : Singleton<ConversationManager> {
 			dialogBoxCanvasGroup.alpha = 0;
 			dialogBoxCanvasGroup.blocksRaycasts = false;
 		}
+	}
+
+	public bool getConvoComplete() {
+		return convoComplete;
 	}
 
 

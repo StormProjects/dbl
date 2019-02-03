@@ -1555,6 +1555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d7c7836c31a33488cda9d9e35445ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeSceneName: BattleScene
 --- !u!114 &244968815
 MonoBehaviour:
   m_ObjectHideFlags: 0

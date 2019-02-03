@@ -13,6 +13,8 @@ public static class NavigationManager{
 		},
 		{ "Mountains", new Route { RouteDescription = "The mountain area",CanTravel = false}
 		},
+		{ "BattleScene", new Route { RouteDescription = "Prepare for battle",CanTravel = true}
+		},
 	};
 
 	public static string GetRouteInfo(string destination) {
